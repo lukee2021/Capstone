@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Statimate/connection.php
 <?php
 $servername = "localhost";
 $username = "root";
@@ -12,3 +13,19 @@ if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
 }
 ?>
+=======
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "Dunrovin3662!";
+$dbname = "frisbeestats_capstone";
+
+// Create connection
+$con = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+?>
+>>>>>>> 4a81d8e (final):Capstone/connection.php
